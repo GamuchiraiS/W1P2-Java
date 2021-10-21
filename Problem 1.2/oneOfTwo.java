@@ -1,5 +1,6 @@
 //For scanner 
 import java.util.*;
+//For Math.max and Math.min
 import java.lang.*;
 
 public class oneOfTwo {
@@ -25,6 +26,9 @@ public class oneOfTwo {
 
 		System.out.println("The minimum value is: " + 
 		Math.min(firstInt, Math.min(secondInt, thirdInt)));
+		
+		//close Scanner
+		sc.close();
 	}
 
 
